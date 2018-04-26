@@ -1,0 +1,294 @@
+@charset "UTF-8";
+.h1.h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 900;
+  font-size: 36px; }
+
+.h2.h2 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 25px; }
+
+.h3.h3 {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #f90231;
+  font-size: 20px;
+  font-weight: 600; }
+
+p {
+  font-size: 18px;
+  padding: 8px 0;
+  color: black;
+  font-family: "Open Sans", sans-serif; }
+
+html, body {
+  position: relative; }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .footer-newsletter {
+    padding: 63px 0px 30px 0px !important; } }
+
+@media (max-width: 575px) {
+  .footer-container {
+    text-align: center; }
+    .footer-container .footer-services, .footer-container .footer-info {
+      padding-bottom: 30px; }
+      .footer-container .footer-services > a, .footer-container .footer-info > a {
+        display: block;
+        padding-left: 0 !important; }
+        .footer-container .footer-services > a:before, .footer-container .footer-info > a:before {
+          display: none; }
+    .footer-container .footer-newsletter-box {
+      width: 90%;
+      margin: auto; }
+    .footer-container .footer-adress {
+      width: 70%;
+      margin: auto; } }
+
+.footer-container {
+  position: relative;
+  background-color: black !important;
+  color: white;
+  padding-bottom: 270px; }
+  .footer-container svg {
+    position: absolute; }
+  .footer-container .footer-services p, .footer-container .footer-info p {
+    color: white;
+    font-family: "PT Serif", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 8px;
+    letter-spacing: 2px; }
+  .footer-container .footer-services > a, .footer-container .footer-info > a {
+    text-decoration: none;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 7px 0 9px 28px;
+    position: relative;
+    color: #e6e6e6; }
+    .footer-container .footer-services > a:before, .footer-container .footer-info > a:before {
+      content: "•";
+      color: grey;
+      font-size: 29px;
+      line-height: 20px;
+      position: absolute;
+      left: 2px;
+      transition: all 170ms ease-in-out; }
+    .footer-container .footer-services > a:hover:before, .footer-container .footer-info > a:hover:before {
+      color: white; }
+  .footer-container .footer-info p {
+    padding: 13px 0px 0px 5px; }
+  .footer-container .footer-adress {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 55px;
+    padding-left: 20px;
+    padding-right: 30px; }
+    .footer-container .footer-adress > div {
+      padding: 20px 15px 25px 50px;
+      position: relative;
+      border-bottom: 1px solid grey;
+      font-size: 14px; }
+      .footer-container .footer-adress > div .footer-icon {
+        position: absolute;
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        left: 3px;
+        top: 15px; }
+    .footer-container .footer-adress div:nth-child(1) .footer-icon {
+      top: 20px;
+      background-color: red; }
+    .footer-container .footer-adress div:last-child {
+      border-color: black; }
+  .footer-container .footer-newsletter {
+    padding: 65px 10px 30px 10px; }
+    .footer-container .footer-newsletter .footer-newsletter-box {
+      text-align: left;
+      padding: 41px 22px 35px 22px;
+      background-color: #464646; }
+      .footer-container .footer-newsletter .footer-newsletter-box .footer-newsletter-icon {
+        width: 50px;
+        height: 35px;
+        background-color: white; }
+      .footer-container .footer-newsletter .footer-newsletter-box p {
+        margin-top: 12px;
+        font-size: 15px; }
+      .footer-container .footer-newsletter .footer-newsletter-box input {
+        margin-top: 22px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #646464;
+        text-align: center;
+        padding-bottom: 7px;
+        color: #646464; }
+        .footer-container .footer-newsletter .footer-newsletter-box input:focus {
+          outline: none;
+          color: #787878; }
+      .footer-container .footer-newsletter .footer-newsletter-box .footer-newsletter-button {
+        background-color: #d81515;
+        font-weight: 600;
+        font-size: 11px;
+        padding: 10px 10px;
+        margin: 22px 13px 0 13px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 17px; }
+
+#services {
+  padding: 90px 0 400px 0;
+  position: relative; }
+  #services svg {
+    position: absolute; }
+  #services img {
+    position: absolute;
+    right: 0;
+    top: -30px; }
+  #services .services-right {
+    position: relative;
+    color: white;
+    background-color: #f90231; }
+    #services .services-right .services-right-price {
+      background-color: #f1f1f1;
+      color: black;
+      width: 125px;
+      height: 125px;
+      position: absolute;
+      right: -20px;
+      top: -20px;
+      font-family: "PT Serif", serif;
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 50%;
+      line-height: 28px;
+      padding: 30px 10px 30px 15px;
+      letter-spacing: 2px; }
+      #services .services-right .services-right-price span {
+        font-size: 30px; }
+    #services .services-right .services-right-dot {
+      width: 36px;
+      height: 36px;
+      background-color: black;
+      position: absolute;
+      border-radius: 50%;
+      top: calc(50% - 018px); }
+    #services .services-right .services-right-dot:nth-child(1) {
+      left: -18px; }
+    #services .services-right .services-right-dot:nth-child(2) {
+      right: -18px; }
+    #services .services-right p {
+      color: white; }
+
+#gallery {
+  padding: 120px 0 350px 0; }
+  #gallery img {
+    margin: 13px 0;
+    height: 10%; }
+
+#description {
+  position: relative;
+  padding-bottom: 530px !important; }
+  #description img {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -634px; }
+
+#home {
+  position: relative;
+  width: 100%;
+  min-height: 1100px;
+  background-image: url("../images/homepage.png");
+  background-position: 0px 0px;
+  background-size: 103%;
+  background-repeat: no-repeat;
+  padding-top: 200px; }
+  #home .ac-menu .ac-card {
+    background-color: red;
+    height: 207px;
+    position: relative;
+    overflow: hidden;
+    transition: all 400ms ease-in-out; }
+    #home .ac-menu .ac-card img {
+      width: 100%;
+      transition: all 400ms ease-in-out;
+      position: absolute; }
+    #home .ac-menu .ac-card .ac-card-text {
+      position: relative;
+      z-index: 2;
+      width: 65%;
+      height: 100%;
+      padding: 30px;
+      color: white; }
+      #home .ac-menu .ac-card .ac-card-text .ac-card-title {
+        font-size: 33px;
+        font-weight: bold;
+        font-family: "PT Serif", serif;
+        margin-top: 20px; }
+      #home .ac-menu .ac-card .ac-card-text .ac-card-button {
+        transition: all 400ms ease-in-out;
+        opacity: 0;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        top: 180px;
+        font-family: "PT Serif", serif;
+        padding: 15px 40px;
+        background-color: #e11414;
+        border-radius: 30px;
+        letter-spacing: 1.5px;
+        font-size: 17px; }
+      #home .ac-menu .ac-card .ac-card-text p {
+        padding-top: 0;
+        color: #d9d9d9; }
+    #home .ac-menu .ac-card:hover {
+      height: 265px; }
+      #home .ac-menu .ac-card:hover .ac-card-button {
+        opacity: 1; }
+      #home .ac-menu .ac-card:hover img {
+        transform: scale(1.1); }
+
+.navbar {
+  position: absolute !important;
+  z-index: 3;
+  background-color: black;
+  width: 100%; }
+  .navbar a {
+    color: white;
+    text-decoration: none; }
+    .navbar a:hover {
+      color: white; }
+  .navbar .navbar-brand {
+    position: absolute;
+    top: 33px;
+    left: 0; }
+  .navbar .nav-number {
+    position: absolute;
+    right: 43px;
+    top: 40px;
+    font-size: 19px;
+    padding: 12px 55px 12px 35px;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-weight: 600; }
+    .navbar .nav-number i {
+      margin-right: 20px; }
+  .navbar .navbar-nav {
+    margin: auto;
+    padding: 30px 0 0 65px; }
+    .navbar .navbar-nav .nav-item {
+      font-family: "PT Serif", serif;
+      font-size: 17px;
+      padding: 17px 30px !important;
+      letter-spacing: 1.4px; }
+
+#description {
+  padding: 0px 0 0px 0;
+  position: relative;
+  background-color: #ececec; }
+  #description svg {
+    position: absolute; }
