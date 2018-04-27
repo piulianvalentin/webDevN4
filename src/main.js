@@ -1,4 +1,4 @@
-var $svg = $(".wavy");
+var $svg = $(".wave");
 
 console.log($svg.height());
 
