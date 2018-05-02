@@ -78,8 +78,8 @@ html, body {
 .footer-container {
 	position: relative;
 	svg {
-		background-color: black;
 		transform: rotate(180deg);
+		background-color: black;
 	}
 	background-color: black !important;
 	color: white;
@@ -200,7 +200,7 @@ html, body {
 	img {
 		position: absolute;
 		right: 0;
-		top: 0;
+		top: 0px;
 		height: 90%;
 		transform: rotate(0deg);
 	}
@@ -249,7 +249,7 @@ html, body {
 			background-color: black;
 			position: absolute;
 			border-radius: 50%;
-			top: calc(50% - 018px)	
+			top: calc(50% - 18px)	
 		}
 		.services-right-dot:nth-child(1) {
 			left: -18px;
@@ -271,7 +271,13 @@ html, body {
 }
 #description {
 	position: relative;
-	padding-bottom: 330px !important;
+	padding-top: 100px !important;
+	padding-bottom: 500px !important;
+	img {
+		position: absolute;
+		bottom: 0;
+		left: calc(50% - 632px);
+	}
 	svg {
 		background-color: $grey;
 		transform: rotate(180deg);
@@ -282,19 +288,19 @@ html, body {
 	width: 100%;
 	min-height: 1100px;
 	background-image: url("../images/homepage.png");
-	background-position: 0px 0px;
-	background-size: 103%;
+	background-position: 80% 0px;
 	background-repeat: no-repeat;
 	padding-top: 200px;
 	.ac-menu {
 		.ac-card {
 			background-color: red;
-			height: 207px;
+			height: 200px;
 			position: relative;
 			overflow: hidden;
 			transition: all 400ms ease-in-out;
 			img {
 				width: 100%;
+				height: auto;
 				transition: all 400ms ease-in-out;
 				position: absolute;
 			}
@@ -331,7 +337,7 @@ html, body {
 				}
 			}
 			&:hover {
-				height: 265px;
+				height: 252px;
 				.ac-card-button {
 					opacity: 1;
 				}
@@ -371,7 +377,9 @@ html, body {
 		i {
 			margin-right: 20px;
 		}
-
+		a {
+			text-decoration: none;
+		}
 	}
 	.navbar-nav {
 		margin: auto;

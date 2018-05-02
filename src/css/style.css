@@ -67,8 +67,8 @@ html, body {
   color: white;
   padding-bottom: 270px; }
   .footer-container svg {
-    background-color: black;
-    transform: rotate(180deg); }
+    transform: rotate(180deg);
+    background-color: black; }
   .footer-container .footer-services p, .footer-container .footer-info p {
     color: white;
     font-family: "PT Serif", serif;
@@ -160,7 +160,7 @@ html, body {
   #services img {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 0px;
     height: 90%;
     transform: rotate(0deg); }
   #services .services-left {
@@ -204,7 +204,7 @@ html, body {
       background-color: black;
       position: absolute;
       border-radius: 50%;
-      top: calc(50% - 018px); }
+      top: calc(50% - 18px); }
     #services .services-container .services-right-dot:nth-child(1) {
       left: -18px; }
     #services .services-container .services-right-dot:nth-child(2) {
@@ -220,7 +220,12 @@ html, body {
 
 #description {
   position: relative;
-  padding-bottom: 330px !important; }
+  padding-top: 100px !important;
+  padding-bottom: 500px !important; }
+  #description img {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 632px); }
   #description svg {
     background-color: #ececec;
     transform: rotate(180deg); }
@@ -230,18 +235,18 @@ html, body {
   width: 100%;
   min-height: 1100px;
   background-image: url("../images/homepage.png");
-  background-position: 0px 0px;
-  background-size: 103%;
+  background-position: 80% 0px;
   background-repeat: no-repeat;
   padding-top: 200px; }
   #home .ac-menu .ac-card {
     background-color: red;
-    height: 207px;
+    height: 200px;
     position: relative;
     overflow: hidden;
     transition: all 400ms ease-in-out; }
     #home .ac-menu .ac-card img {
       width: 100%;
+      height: auto;
       transition: all 400ms ease-in-out;
       position: absolute; }
     #home .ac-menu .ac-card .ac-card-text {
@@ -273,7 +278,7 @@ html, body {
         padding-top: 0;
         color: #d9d9d9; }
     #home .ac-menu .ac-card:hover {
-      height: 265px; }
+      height: 252px; }
       #home .ac-menu .ac-card:hover .ac-card-button {
         opacity: 1; }
       #home .ac-menu .ac-card:hover img {
@@ -304,6 +309,8 @@ html, body {
     font-weight: 600; }
     .navbar .nav-number i {
       margin-right: 20px; }
+    .navbar .nav-number a {
+      text-decoration: none; }
   .navbar .navbar-nav {
     margin: auto;
     padding: 30px 0 0 65px; }
